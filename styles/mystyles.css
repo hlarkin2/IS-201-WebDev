@@ -1,0 +1,39 @@
+.btn-primary{
+    color: #000;
+    background-color: rgb(116, 183, 238);
+    border-color: rgb(116,183,238);
+}
+.intro .intro-text {
+    left: 0;
+    width: 60%;
+    margin-top: 3rem;
+    position: absolute;
+    color: rgb(37, 37, 37)
+  }
+  .footer {
+    background-color: rgb(116, 183, 238);
+  }
+  #mainNav {
+    background-color: rgb(116, 183, 238);
+    font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  @media (min-width: 992px) {
+    .product-item .product-item-title {
+      position: relative;
+      z-index: 1;
+      margin-bottom: -3rem;
+      color: rgb(37, 37, 37);
+    }
+    .product-item .product-item-img {
+      position: relative;
+      z-index: 0;
+      max-width: 60vw;
+    }
+    .product-item .product-item-description {
+      position: relative;
+      z-index: 1;
+      margin-top: 3rem;
+      max-width: 50vw;
+      color: rgb(37, 37, 37);
+    }
+  }
